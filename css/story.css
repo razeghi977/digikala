@@ -1,0 +1,52 @@
+.story{
+    width:100%;
+    height:188px;
+}
+.center-story{
+    max-width: 1350px;
+    height:100%;
+}
+  .swiiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+    
+    .swiiper-slider-item{
+      width:100%;
+      height:100%;
+      padding-top:35px;
+    }
+    .swiiper-slider-item img{
+      width:74px;
+      height:74px;
+      display:block;
+      border-radius:100%;
+      outline:3px solid purple;
+      outline-offset:3px;
+      margin:0 auto;
+      margin-bottom:15px;
+    }
+    .swiiper-slider-item span{
+      font-family: var(--font-family);
+      font-size:11px;
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      box-orient:vertical;
+      -webkit-line-clamp:2;
+      line-clamp:2;
+      overflow:hidden;
+      line-height:20px;
+      width:80%;
+      margin:0 auto;
+
+    }

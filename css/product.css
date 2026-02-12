@@ -1,0 +1,29 @@
+.product{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 92%;
+    margin: 0 auto;
+    gap: 22px;
+}
+/* .right-product {
+    display: flex !important;
+    justify-content: right!important;
+    align-items: center;
+    margin-right: 50px;
+} */
+.images img{
+    width:100%;
+    border-radius:16px;
+}
+
+/* .left-product{
+    display: flex !important;;
+    justify-content: left!important;
+    align-items: center!important;
+    margin-left: 50px;
+} */
+.images-2 img{
+    width:100%;
+    border-radius:16px;
+}

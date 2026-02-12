@@ -1,0 +1,10 @@
+.poster{
+display: flex;
+  justify-content: center;
+  gap: 28px;    
+}
+.image img{
+    width: 317px;
+    height: 217px;
+    border-radius:16px;
+}

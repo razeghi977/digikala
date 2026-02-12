@@ -1,0 +1,25 @@
+.mySwipox{
+    width:92%;
+    height: 200px !important;
+    border:1px solid #e1e1e1;
+    border-radius:15px;
+    margin: 50px auto;
+}
+img.ali{
+    width:100px;
+}
+.mySwipox .swiper-slide{
+    display:flex;
+}
+.swipox{
+width: 100%;
+border-left: 1px solid #e1e1e1;
+}
+.mySwipox h1{
+text-align: center;   
+padding: 10px 0; 
+}
+
+.mySwipox .swiper-wrapper{
+    height:65%;
+}

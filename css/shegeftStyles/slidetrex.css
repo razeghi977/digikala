@@ -1,0 +1,54 @@
+.myTrex{
+    margin-top: 50px;
+    border:1px solid #C6C6C6;
+    border-radius: 10px;
+}
+
+
+.pictuni{
+    width: 164px;
+    height: 32px;
+    margin-right: 20px;
+    border-bottom: 1px solid red;
+}
+.swiper-slide>.text{
+    width:250px;
+    height:20px;
+    color:#FB008F;
+    margin-right: 10px;
+}
+.swiper-slide>.hashtag{
+    text-decoration: none;
+}
+.picotry{
+    width:150px;
+}
+.pictub{
+    color:#3F4064;
+    margin-right: 10px;
+    font-family: "yekan";
+    font-size: 13px;
+}
+.pisok{
+    width:131px;
+    
+}
+.peakok{
+    width: 33px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 293px;
+    left: 160px;
+}
+.peadel{
+    width:33px;
+    color:#191D17;
+    margin-right: 120px;
+}
+.peasok{
+    color:#DDDDDD;
+    margin-right:120px;
+}

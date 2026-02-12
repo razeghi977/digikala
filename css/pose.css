@@ -1,0 +1,17 @@
+.pose{
+       display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  gap: 28px;
+
+}
+.image img{
+    width: 317px;
+    height: 217px;
+    border-radius: 16px;
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto !important;
+}

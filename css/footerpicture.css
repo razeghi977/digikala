@@ -1,0 +1,68 @@
+.footer-svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto;
+}
+.footer-svg > a > img {
+  width: 70px;
+}
+.footer-svg > a {
+  display: flex;
+  color: #343434;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  font-family: "yekan";
+  font-size: 12px;
+  gap: 12px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  margin: 50px 0;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: #81858b;
+  font-family: yekan;
+  font-size: 14px;
+}
+.footer-menu > div > h3 {
+  font-family: yekan;
+  font-size: 16px;
+}
+.footer-menu > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.social {
+  display: flex;
+  gap: 40px;
+}
+.social > a {
+  font-size: 35px;
+}
+#email_input {
+  padding: 17px 10px;
+  width: 220px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-family: "yekan";
+  border: none;
+  background-color: #eeeeee;
+}
+#email_submit_btn {
+  padding: 17px 20px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-family: "yekan";
+  border: 1px solid #c1c1c1;
+}
+.footer-menu p {
+  font-family: "yekan";
+  font-size: 14px;
+}

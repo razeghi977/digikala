@@ -1,0 +1,40 @@
+.footer-logo{
+    width:92%;
+    height:74px;
+    background-color: #3C4B6D;
+    margin-right: 50px;
+    border-radius: 5px;
+    
+
+}
+.footer-logo-item-right{
+    display:flex;
+    justify-content:flex-start;
+     position: relative;
+}
+.footer-logo-item-right>img{
+ width:44px;
+ height:44px;
+ position:absolute;
+ right: 19px;
+ top:19px;
+}
+.footer-logo-item-right>h1{
+    position:absolute;
+    top:25px;
+    right:70px;
+    color:#fff;
+    font-family:"yekan" ;
+    font-size:23px;
+}
+.footer-logo-item-left{
+    display:flex;
+    justify-content:end;
+    position:relative;
+}
+.footer-logo-item-left>a{
+    position:absolute;
+    top:15px;
+    left:20px;
+
+}

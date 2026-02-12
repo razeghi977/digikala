@@ -1,0 +1,29 @@
+.postman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 53px auto;
+  width: 92%;
+  gap: 20px;
+}
+
+/* .right-postman {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.imager img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+/* .left-postman {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+} */
+.imager-2 img {
+  border-radius: 16px;
+  width: 100%;
+}

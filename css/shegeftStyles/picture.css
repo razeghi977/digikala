@@ -1,0 +1,12 @@
+.picture{
+    display:inline-block;
+
+}
+.picture-item{
+    display:flex;
+    justify-content: center;
+    
+}
+.picture>.picture-item> img{
+  width: 100%;
+}
