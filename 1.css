@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sonic-wrapper{
+    background-color: #ffffff;
+    width: 92%;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    margin: 10px auto;
+}
+.sonic-wrapper .sonic-title h2{
+text-align: center;
+padding: 25px 0;
+}
+div.sonic-grid-box{
+    width: 96%;
+    margin: 10px auto;
+    background-color: rgb(216, 216, 216);
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+    overflow: hidden;
+}
+
+.sonic-grid-box .sonic{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.sonic-grid-box .sonic .sonic-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sonic-grid-box .sonic .sonic-image img{
+    width: 180px;
+}
+
+.sonic-grid-box .sonic .sonic-price{
+    display: flex;
+    justify-content: space-between;
+}
