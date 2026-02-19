@@ -1,0 +1,47 @@
+.container-magic {
+  width: 92%;
+  border: 1px solid lightgray;
+  background-color: #ffff;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+.container-magic > .gridbox-template {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.gridbox-template > .sonic-hashtag {
+  text-decoration: none;
+  color: black;
+}
+.gridbox-template > .sonic-hashtag > .sonic {
+  margin-right: 50px;
+  position: relative;
+}
+.sonic > .sonic-picture img {
+  width: 150px;
+  height: 150px;
+}
+.sonic-price {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  margin-right: 57px;
+}
+.sonic-price span {
+  position: absolute;
+  top: 148px;
+  right: 133px;
+}
+.sonic-discount {
+  position: absolute;
+  right: 1px;
+  top: 150px;
+  background-color: red;
+  width: 29px;
+  color: #ffff;
+  border-radius: 15px;
+}
+.sonic-price-origin {
+  text-decoration: line-through;
+  margin-right: 60px;
+  color: #c0c2ce;
+}

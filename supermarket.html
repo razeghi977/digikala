@@ -1,13 +1,14 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/supermarket-styles/main.css">
-</head>
-<body dir="rtl">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/supermarket-styles/main.css" />
+  </head>
+  <body dir="rtl">
     <div class="wrapper">
-         <div class="header">
+      <div class="header">
         <div class="header-banner">
           <img src="./images/gift/banner.gif" alt="" />
         </div>
@@ -267,7 +268,32 @@
           </div>
         </div>
       </div>
-       <!--footer start-->
+      <!-- #region slider -->
+      <div class="swiper mySlidox">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slidox-slide-item"> 
+            <img src="./images2/myslidox/image-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slidox-slide-item">
+              <img src="./images2/myslidox/image-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slidox-slide-item">
+            <img src="./images2/myslidox/image-3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      <!-- #endregion slider-->
+      <!--footer start-->
       <div class="footer">
         <div class="footer-svg">
           <a href="#">
@@ -399,5 +425,25 @@
         </div>
       </div>
     </div>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySlidox", {
+        direction:"horizontal",
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
 </html>
