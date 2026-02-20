@@ -1,0 +1,87 @@
+
+.myGootier {
+  width: 92%;
+  border: 1px solid lightgray;
+}
+.slide-gootier-x {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #06b056;
+  position: relative;
+}
+
+.slide-gootier-x > .slide-gootier {
+  width: 120px !important;
+  height: 120px !important;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.slide-gootier-x > .slide-gootier-2 {
+  width: 145px !important;
+  height: 145px !important;
+  margin-top:30px;
+  margin-left:15px;
+}
+.link{
+  text-decoration: none;
+    font-family: "yekan";
+    font-size: 19px;
+    color: whitesmoke;
+    position: absolute;
+    top: 352px;
+    right: -7px;
+    margin-right: 20px;
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+.swiper-slide{
+  background-color:#ffff;
+}
+.swiper-slide-bix{
+  color:#E6123D;
+  position: absolute;
+    top: 19px;
+    font-family: "yekan";
+    font-size: 16px;
+    margin-right: 10px;
+}
+.swiper-slide-box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 109px;
+    right: 15px;
+}
+.swiper-slide> div>h3{
+  margin-top: 268px;
+  font-family: "yekan";
+  font-size: 14px;
+  color:#3F4064;
+  margin-right:10px;
+}
+.swiper-real-price{
+   color:#3F4064;
+   margin-top: 55px;
+   margin-right: 93px;
+}
+.swiper-real-price-logo{
+  position: absolute;
+    top: 355px;
+}
+.swiper-real-price-discount{
+  background-color: #E6123D;
+    color: #ffff;
+    width: 30px;
+    position: absolute;
+    left: 143px;
+    top: 363px;
+    border-radius: 15px;
+}
+.swiper-origin-price{
+  text-decoration: line-through;
+  color:#C3C5C8;
+  
+}
