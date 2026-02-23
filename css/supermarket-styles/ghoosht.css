@@ -1,0 +1,50 @@
+.ghoost-m{
+    width:92%;
+    height:350px;
+    border:1px solid lightgray;
+    margin:10px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+.ghoost-m h3{
+    font-family:"yekan";
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.ghoost-m a{
+    text-decoration: none;
+    font-family: "yekan";
+    font-size: 15px;
+    margin-right: 1278px;
+    color:aqua;
+}
+.ghoosht-germez img{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+}
+.ghoosht-germez p{
+    font-family: "yekan";
+    font-size: 13px;
+    color:#8A8996;
+}
+.ghoost-germez-price{
+    display:flex;
+    position:relative;
+}
+.ghoost-germez-price>.germez-1{
+ position:absolute;
+ top:16px;
+ left:39px;
+}
+.ghoost-germez-price>.germez-logo{
+    position:absolute;
+    top:5px;
+    right:164px;
+}
+.germez-2{
+    margin-top: 18px;
+    margin-right: 97px;
+}

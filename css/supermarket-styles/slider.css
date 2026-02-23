@@ -1,6 +1,9 @@
 .swiper-slide>.slidox-slide-item{
   display:flex;
 }
+.mySlidox{
+  height: 400px;
+}
 .slidox-slide-item img{
   width:100%;
   height:390px;

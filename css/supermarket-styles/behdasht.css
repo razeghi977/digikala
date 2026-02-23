@@ -1,0 +1,43 @@
+.behdasht-tamiz{
+    width:92%;
+    height:350px;
+    border:1px solid lightgray;
+    border-radius: 15px;
+    margin:10px auto;
+    overflow: hidden;
+    position:relative;
+}
+.behdasht-tamiz h3{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: "yekan";
+    font-size: 15px;
+}
+.behdasht-tamiz a{
+    text-decoration: none;
+    font-family: "yekan";
+    font-size:15px;
+    margin-right: 1267px;
+    margin-bottom: 25px;
+    color:aqua;
+}
+.behdasht-tozih img{
+    width:150px;
+    height:150px;
+    margin-bottom: 30px;
+}
+.behdasht-tozih p{
+    font-family: "yekan";
+    font-size: 14px;
+    color:#8A8996;
+}
+.behdasht-tozih-price{
+    position: absolute;
+    top: 238px;
+    right: 119px;
+}
+.behdasht-tozih-logo{
+  position: absolute;
+    top: 227px;
+    right: 171px;
+}

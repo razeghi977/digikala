@@ -1,0 +1,24 @@
+.kala-oncader{
+    width:92%;
+    height:350px;
+    margin:10px auto;
+}
+.swiper-kalabarg-hash{
+    text-decoration: none;
+    background-color: #ffff;
+    color:black;
+}
+.swiper-kalabarg{
+    background-color: #ffff;
+}
+.swiper-slide> .swiper-kalabarg img{
+    width:100px;
+    height:100px;
+    color:#ffff;
+}
+.swiper-kalabarg-paragraph{
+    margin-top: 16px;
+    font-family: "yekan";
+    font-size: 13px;
+    color:black;
+}

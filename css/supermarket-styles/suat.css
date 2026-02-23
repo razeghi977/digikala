@@ -1,0 +1,22 @@
+.suatyekom{
+    width:92%;
+    height:350px;
+    border:1px solid lightgray;
+    border-radius: 15px;
+    overflow: hidden;
+    margin:10px auto;
+
+}
+.suatyekom h3{
+    text-align: center;
+    font-family: "yekan";
+    font-size: 16px;
+
+}
+.suatyekom a{
+    text-decoration: none;
+    color:aqua;
+    margin-right: 1270px;
+    font-family: "yekan";
+    font-size: 16px;
+}

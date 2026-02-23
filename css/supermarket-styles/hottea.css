@@ -1,0 +1,48 @@
+.hottea-spot{
+    width:92%;
+    height:350px;
+    border:1px solid lightgray;
+    margin:10px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.hottea-spot h3{
+    margin-right: 6px;
+    margin-top: 16px;
+    font-family: "yekan";
+    font-size: 16px;
+}
+.teahash{
+   text-decoration: none;
+    color: aqua;
+    margin-right: 1272px;
+    font-family: "yekan";
+    font-size: 16px;
+}
+.box-hottea img{
+    margin-top: 20px;
+    width:150px;
+    height:150px;
+}
+.box-hottea p{
+    font-family: "yekan";
+    font-size: 13px;
+    color:#8A8996;
+}
+.box-hottea>.teaprice{
+   margin-top: 60px;
+   margin-right: 80px;
+}
+.box-hottea>.teaprice span{
+    position:absolute;
+    top:257px;
+}
+.teaprice-2{
+    margin-top:78px;
+    margin-right: 90px;
+}
+.teaprice-2 span{
+    position:absolute;
+    top:256px;
+}
