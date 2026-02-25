@@ -5,30 +5,49 @@
   flex-direction:row;
 }
   */
- .imag{
+  .swiped-column{
+    width:92%;
+    height:375px;
+    position:relative;
+    margin:10px auto;
+  }
+ .imag-1{
   width:100px;
   height:100px;
-
+  margin-bottom:60px;
+}
+.imag-2{
+  width:100px;
+  height:100px;
+  margin-bottom: 30px;
 }
  .mySwiped>h2{
   text-align: center;
-  font-family: yekan;
+  font-family: "yekan";
  }
  .testbic{
   display:flex; 
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   text-decoration: none;
-  position:relative;
+  
   
  }
 .pragraph{
-  background-color: #fff;
-  color:black;
-  font-family: yekan;
-  font-size: 13px;
+    background-color: #fff;
+    color: black;
+    font-family: "yekan";
+    font-size: 13px;
+    position: absolute;
+    top: 127px;
+    right: 40px;
 }
-div.mySwiped{
-  width: 89%;
-  margin: 30px auto;
-}
+.pragraph-2{
+ background-color: #fff;
+    color: black;
+    font-family: "yekan";
+    font-size: 13px;
+    position: absolute;
+    top: 133px;
+    right: 41px;
+  }
