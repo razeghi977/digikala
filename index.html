@@ -1517,9 +1517,9 @@
       <!-- #endregion category-->
 
       <button class="go-market" id="openMarket">
-         سوپر مارکت
-          <i class="fa fa-shopping-basket"></i>
-        </button>
+        سوپر مارکت
+        <i class="fa fa-shopping-basket"></i>
+      </button>
 
       <!-- #region inc-->
       <div class="swiper myInc">
@@ -3166,53 +3166,54 @@
       <!-- #endregion wrapper -->
     </div>
 
-<!-- Modal super market -->
- <div class="modal-overlay" id="marketModal">
-  <div class="modal-box">
-    <button class="close-btn" id="closeMarket"><i class="fa fa-close"></i></button>
-    <h2>یکی از سوپرمارکت‌های زیر را انتخاب کنید</h2>
-    
-    <div class="modal-content">
-      <div class="card digi-fresh">
-        <h3>
-         پرتخفیف و متنوع
-          <i class="fa fa-angle-left"></i>
-        </h3>
-        <span>
-          <i class="fa fa-truck"></i>
-          ارسال سریع
-        </span>
-      </div>
-      <div class="card digi-jet">
-        <h3>
-          ارسال فوری
-          <i class="fa fa-angle-left"></i>
-        </h3>
-        <span>
-          <i class="fa fa-clock-o"></i>
-          45 دقیقه ای
-        </span>
+    <!-- Modal super market -->
+    <div class="modal-overlay" id="marketModal">
+      <div class="modal-box">
+        <button class="close-btn" id="closeMarket">
+          <i class="fa fa-close"></i>
+        </button>
+        <h2>یکی از سوپرمارکت‌های زیر را انتخاب کنید</h2>
+
+        <div class="modal-content">
+          <div class="card digi-fresh">
+            <h3>
+              پرتخفیف و متنوع
+              <i class="fa fa-angle-left"></i>
+            </h3>
+            <span>
+              <i class="fa fa-truck"></i>
+              ارسال سریع
+            </span>
+          </div>
+          <div class="card digi-jet">
+            <h3>
+              ارسال فوری
+              <i class="fa fa-angle-left"></i>
+            </h3>
+            <span>
+              <i class="fa fa-clock-o"></i>
+              45 دقیقه ای
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<script>
-  const openBtn = document.getElementById("openMarket");
-  const modal = document.getElementById("marketModal");
-  const closeBtn = document.getElementById("closeMarket");
+    <script>
+      const openBtn = document.getElementById("openMarket");
+      const modal = document.getElementById("marketModal");
+      const closeBtn = document.getElementById("closeMarket");
 
-  openBtn.onclick = () => modal.style.display = "flex";
-  closeBtn.onclick = () => modal.style.display = "none";
+      openBtn.onclick = () => (modal.style.display = "flex");
+      closeBtn.onclick = () => (modal.style.display = "none");
 
-  window.onclick = (e) => {
-    if (e.target === modal) {
-      modal.style.display = "none";
-    }
-  };
-</script>
+      window.onclick = (e) => {
+        if (e.target === modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
 
-<!-- End Modal super market -->
-
+    <!-- End Modal super market -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
